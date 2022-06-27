@@ -22,10 +22,18 @@
             <input type="date" name="date" id="date" class="form-control" value="{{$event->date->format('Y-m-d')}}">
         </div>
         <div class="form-group">
-            <label for="city">Cidade:</label>
-            <input type="text" name="city" id="city" class="form-control" placeholder="Local do evento" value="{{$event->city}}">
+            <label for="time">Horário do Evento:</label>
+            <input type="text" name="time" id="time" class="form-control"  value="{{$event->time}}">
         </div>
         <div class="form-group">
+            <label for="city">Cidade:</label>
+            <input type="text" name="city" id="city" class="form-control" placeholder="Cidade do evento" value="{{$event->city}}">
+        </div>
+        <div class="form-group">
+            <label for="locale">Local:</label>
+            <input type="text" name="locale" id="locale" class="form-control" placeholder="Local do evento" value="{{$event->locale}}">
+        </div>
+       <div class="form-group">
             <label for="private">O Evento é privado?</label>
             <select name="private" id="private" class="form-control">
                 <option value="0">Não</option>
@@ -39,6 +47,9 @@
         <div class="form-group">
             <label for="itens">Adicione itens de infraestrutura:</label>
             <div class="form-group">
+                <input type="checkbox" name="itens[]" value="Ambiente Climatizado">Ambiente Climatizado
+            </div>
+            <div class="form-group">
                 <input type="checkbox" name="itens[]" value="Cadeiras">Cadeiras
             </div>
             <div class="form-group">
@@ -46,6 +57,21 @@
             </div>
             <div class="form-group">
                 <input type="checkbox" name="itens[]" value="Palco">Palco
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="itens[]" value="Comanda Individual">Comanda Individual
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="itens[]" value="Comanda Coletiva">Comanda Coletiva
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="itens[]" value="Rodízio de Carnes">Rodízio de Carnes
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="itens[]" value="Rodízio de Massas">Rodízio de Massas
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="itens[]" value="Buffet">Buffet
             </div>
             <div class="form-group">
                 <input type="checkbox" name="itens[]" value="Bebida Grátis">Bebida Grátis

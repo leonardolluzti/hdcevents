@@ -17,7 +17,6 @@
     </head>
     <body>
         <header>
-
         <nav class="navbar navbar-expand-lg navbar-light">
             <div id="logo"><img src="/img/Logo.png" alt="Logotipo"></div>
             <div class="collapse navbar-collapse" id="navbar">
