@@ -31,7 +31,8 @@ section{
     width: 40px;
 }
 #navbar{
-    justify-content: space-between;
+    display: flex;
+    justify-content: flex-end;
     background-color: #FFFFFF;
     padding: 5px 0;
 }

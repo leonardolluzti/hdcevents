@@ -23,7 +23,7 @@
         </div>
         <div class="form-group">
             <label for="time">Horário do Evento:</label>
-            <input type="text" name="time" id="time" class="form-control"  value="{{$event->time}}">
+            <input type="text" name="time" id="time" class="form-control" value="{{$event->time}}">
         </div>
         <div class="form-group">
             <label for="city">Cidade:</label>
