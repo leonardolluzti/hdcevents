@@ -41,7 +41,7 @@
                 @endguest
                     <li class="nav-item"><a class="nav-link" href='/contato'>Contato</a></li>
                 </ul>
-            </div>
+            </div><ion-icon name="ellipsis-vertical-outline"></ion-icon>
         </nav>
         </header>
         <main>
