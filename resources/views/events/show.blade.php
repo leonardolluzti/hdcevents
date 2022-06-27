@@ -17,7 +17,7 @@
                 @else
                 <p class="event-private"><ion-icon name="list-circle-outline"></ion-icon> Evento Público</p>
                 @endif
-                <p class="event-city"><ion-icon name="location-outline"></ion-icon> {{ $event->city }}</p>
+                <p class="event-city"><ion-icon name="map-outline"></ion-icon> {{ $event->city }}</p>
                 <p class="event-locale"><ion-icon name="location-outline"></ion-icon> {{ $event->locale }}</p>
                 <p class="event-participants"><ion-icon name="people-outline"></ion-icon>{{ count($event->users) }} Participantes {{-- $event->participants --}}</p>
                 <p class="event-owner"><ion-icon name="star-outline"></ion-icon>{{ $eventOwner['name'] }}</p>
@@ -37,7 +37,7 @@
                 <h3>O evento conta com:</h3>
                 <ul id="itens-list">
                     @foreach($event->itens as $item)
-                    <li><ion-icon name="play-outline"></ion-icon><span>{{ $item }}</span></li>
+                    <li><ion-icon name="checkmark-circle"></ion-icon><span>{{ $item }}</span></li>
                     @endforeach
                 </ul>
             </div>

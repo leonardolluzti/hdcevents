@@ -9,27 +9,27 @@
         @csrf
         <div class="form-group">
             <label for="image">Imagem do Evento:</label>
-            <input type="file" name="image" id="image" class="form-control-file">
+            <input type="file" accept="image/*" name="image" id="image" class="form-control-file" required="required">
         </div>
         <div class="form-group">
             <label for="title">Evento:</label>
-            <input type="text" name="title" id="title" class="form-control" placeholder="Nome do evento">
+            <input type="text" name="title" id="title" class="form-control" placeholder="Nome do evento" required="required">
         </div>
         <div class="form-group">
             <label for="date">Data do Evento:</label>
-            <input type="date" name="date" id="date" class="form-control">
+            <input type="date" name="date" id="date" class="form-control" required="required">
         </div>
         <div class="form-group">
             <label for="time">Horário do Evento:</label>
-            <input type="text" name="time" id="time" class="form-control">
+            <input type="text" name="time" id="time" class="form-control" placeholder="Das 18:00 às 22:00hs" required="required">
         </div>
         <div class="form-group">
             <label for="city">Cidade:</label>
-            <input type="text" name="city" id="city" class="form-control" placeholder="Cidade do evento">
+            <input type="text" name="city" id="city" class="form-control" placeholder="Cidade do evento" required="required">
         </div>
         <div class="form-group">
             <label for="locale">Local:</label>
-            <input type="text" name="locale" id="locale" class="form-control" placeholder="Local do evento">
+            <input type="text" name="locale" id="locale" class="form-control" placeholder="Local do evento" required="required">
         </div>
         <div class="form-group">
             <label for="private">O Evento é privado?</label>
@@ -40,7 +40,7 @@
         </div>
         <div class="form-group">
             <label for="description">Descrição do Evento:</label>
-            <textarea name="description" id="description" class="form-control" placeholder="O que vai acontecer no evento"></textarea>
+            <textarea name="description" id="description" class="form-control" placeholder="O que vai acontecer no evento" required="required"></textarea>
         </div>
         <div class="form-group">
             <label for="itens">Adicione itens de infraestrutura:</label>
