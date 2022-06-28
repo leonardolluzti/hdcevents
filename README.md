@@ -1,6 +1,7 @@
 ## HDC Events
 
-    Site de criação de eventos feito em PHP com Framework Laravel e Banco de dados Mysql, e autenticação usando Jetstream com Livewire.
+    Site de criação de eventos feito em PHP com Framework Laravel, Banco de dados Mysql 
+    e autenticação usando Jetstream com Livewire.
 
     Site permite criar eventos, editar eventos, deletar eventos, participar de eventos, sair de eventos.
 
